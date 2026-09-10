@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "posts/first-weeks/index.html",
+    "href": "posts/first-weeks/index.html",
+    "title": "My first weeks in MDS",
+    "section": "",
+    "text": "Orientation day - our favourite classroom.\n\n\nThe first week has been a whirlwind of challenges and delights, but reflection is needed after failing to complete 3 labs and multiple worksheets. The instructors and TAs are fantastic, and my colleagues were bright and encouraging. However, staying late and grinding slowly did not work.\nThis week’s game plan: 1. Rule 1: Do all worksheets and all labs ASAP. 2. Rule 2: Changes for pre-lecture readings:\n\nMath: Ask AI to explain the textbook simply if you struggle with the textbook for 10 minutes.\nR: Watch Dr. Timbers’s videos first (not the textbook or required readings).\nPlatforms: Reading first does not help if you don’t understand 80% of it.\nPython: Read through ahead of class. Watch a YouTube video ifneed be. Haven’t figured this class out.\n\nIt feels doom-y, but it’s definitely not gloomy. Instructors and students are the highlight of each day. Onwards."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Joyce is a current UBC MDS graduate student with a BA in Music Theory, and a career path that has taken her everywhere. She’s worked in retail, education, banking, entertainment, events, and the public service."
+  },
+  {
+    "objectID": "about.html#background",
+    "href": "about.html#background",
+    "title": "About",
+    "section": "",
+    "text": "Joyce is a current UBC MDS graduate student with a BA in Music Theory, and a career path that has taken her everywhere. She’s worked in retail, education, banking, entertainment, events, and the public service."
+  },
+  {
+    "objectID": "about.html#why-data-science",
+    "href": "about.html#why-data-science",
+    "title": "About",
+    "section": "Why data science",
+    "text": "Why data science\nDespite the wide range of jobs, the same questions kept resurfacing: What insights can be extracted from it? How can those insights be communicated persuasively? How can systems outlast the people who build them? And how can AI and automation make work faster and more accurate, freeing up time for deeper analysis?\nAfter more than a decade of trying to learn on her own, Joyce decided to enrolled in UBC’s Master of Data Science program. She’s interested in statistics, modelling, and the process of turning messy data into something meaningful. The learning curve is steep, but she’s enjoying the challenge and has been continually impressed by her instructors and cohort."
+  },
+  {
+    "objectID": "about.html#outside-of-data",
+    "href": "about.html#outside-of-data",
+    "title": "About",
+    "section": "Outside of Data",
+    "text": "Outside of Data\nJoyce leans into her “granny hobbies” that include cooking, movies, reading, knitting, and arts and crafts, and visiting museums.\nShe top-rope climbs and is working toward climbing 10s with the goal of learning how to lead by the summer of 2027. Her ultimate dream is to be able to climb outdoors in different countries as she travels.\nPlease congratulate Joyce on recently becoming a long-distance owner of a stray cat! “Trash Kitty” was found eating scraps from the bin behind her brother’s London flat, and after only four days of whispering sweet promises of a warm bed – and four cans of tuna– the cat finally wandered into their home where he established himself as their newest and most adorable family menace."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Joyce Lin (GritHub 404)",
+    "section": "",
+    "text": "I’m a current Graduate Student of the UBC Master of Data Science program who’s pivoting into this field after working for 15 years in various sectors working in odd jobs(videography, retail, banking, accounts payable, and tutoring). I’m excited to learn all the program has to offer and cannot wait to apply these skills on real life data of all fields! GritHub404 is wink to the universal frustration of persisting through those error messages as we work to expand our current skill set one mistake at a time.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  }
+]

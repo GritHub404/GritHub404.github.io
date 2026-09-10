@@ -1,0 +1,20 @@
+---
+title: "My first weeks in MDS"
+author: "Joyce Lin"
+date: 2026-09-09
+---
+
+![Orientation day - our favourite classroom.](orientation.png)
+
+The first week has been a whirlwind of challenges and delights, but reflection is needed after failing to complete 3 labs and multiple worksheets. The instructors and TAs are fantastic, and my colleagues were bright and encouraging. However, staying late and grinding slowly did not work. 
+
+This week's game plan:
+1. Rule 1: Do all worksheets and all labs ASAP.
+2. Rule 2: Changes for pre-lecture readings:
+
+i. Math: Ask AI to explain the textbook simply if you struggle with the textbook for 10 minutes.
+ii. R: Watch Dr. Timbers's videos first (not the textbook or required readings). 
+iii. Platforms: Reading first does not help if you don't understand 80% of it.
+iv. Python: Read through ahead of class. Watch a YouTube video ifneed be. Haven't figured this class out.
+
+It feels doom-y, but it's definitely not gloomy. Instructors and students are the highlight of each day. Onwards.

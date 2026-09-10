@@ -1,12 +1,12 @@
 ---
 title: "Joyce Lin (GritHub 404)"
 about:
-template: jolla
-image: images/profile.jpg
+    template: jolla
+    image: images/profile.jpg
 ---
-![](images/profile.jpg){width=250px}
 
-I'm a current Graduate Student of the UBC Master of Data Science program who's pivoting into this field after working for 15 years in various sectors working in odd jobs(videography, retail, banking, accounts payable, and tutoring). I'm excited to learn all the program has to offer and cannot wait to apply these skills on real life data of all fields! GritHub404 is wink to the universal frustration of persisting through those error messages as we strive to expanding our current skill set one mistake at a time. 
+
+I'm a current Graduate Student of the UBC Master of Data Science program who's pivoting into this field after working for 15 years in various sectors working in odd jobs(videography, retail, banking, accounts payable, and tutoring). I'm excited to learn all the program has to offer and cannot wait to apply these skills on real life data of all fields! GritHub404 is wink to the universal frustration of persisting through those error messages as we work to expand our current skill set one mistake at a time. 
 
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
