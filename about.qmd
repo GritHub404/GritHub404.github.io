@@ -2,4 +2,20 @@
 title: "About"
 ---
 
-About this site
+## Background
+Joyce is a current UBC MDS graduate student with a BA in Music Theory, and a career path that has taken her everywhere.
+
+She's worked in retail, education, banking, entertainment, events, and the public service. Despite the wide range of jobs, the same questions kept resurfacing: What insights can be extracted from it? How can those insights be communicated persuasively? How can systems outlast the people who build them? And how can AI and automation make work faster and more accurate, freeing up time for deeper analysis?
+
+## Why data science
+After more than a decade of trying to learn on her own, Joyce decided to enrolled in UBC's Master of Data Science program. She's interested in statistics, modelling, and the process of turning messy data into something meaningful. The learning curve is steep, but she's enjoying the challenge and has been continually impressed by her instructors and cohort.
+
+## Outside of Data
+
+Joyce leans into her "granny hobbies" that include cooking, movies, reading, knitting, and arts and crafts.
+
+She top-rope climbs and is working toward climbing 10s with the goal of learning how to lead climb by the summer of 2027. 
+
+Her recent obssession is becoming a long-distant cat-owner of a London stray that was found living eating scraps out of a trash bin by her brother's flat. 
+
+

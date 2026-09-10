@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "GritHub 404"
+  title: "Joyce Lin (GritHub 404)"
   navbar:
     left:
       - href: index.qmd
