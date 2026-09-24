@@ -1,3 +1,36 @@
 ```{r}
-
+install.packages("palmerpenguins")
+install.packages("tidyverse")
 ```
+
+---
+title: "The most huggable penguin species by weight - but in R"
+author: "Joyce Lin"
+date: 2026-09-24
+---
+
+#| Data: [Palmer Penguins](https://allisonhorst.github.io/palmerpenguins/),
+#| Palmer Station Antarctica LTER.
+
+#| Let's try to find the most sataisfyingly, huggable penguin.
+```{r}
+penguins
+head(penguins)
+```
+
+```{r}
+penguins_species_weight = penguins |> 
+  group_by(species) |> 
+  summarise(avg_body_mass = mean(body_mass, na.rm = TRUE))
+penguins_species_weight
+```
+
+
+#| label: fig-penguin-mass
+#| fig-cap: "Body mass of penguins by species."
+
+#| Description: Of the three penguin species observered, the Gentoos are by far the biggest birds and thus, the most satisfyingly huggable ones.
+#| fig-cap: "Body mass of penguins by species."
+
+#| message: false
+#| warning: false
