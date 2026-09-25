@@ -9,30 +9,49 @@ import sys
 print(sys.executable)
 ```
 
-#| Data: [Palmer Penguins](https://allisonhorst.github.io/palmerpenguins/),
-#| Palmer Station Antarctica LTER.
+- Data: [Palmer Penguins](https://allisonhorst.github.io/palmerpenguins/),
+- Palmer Station Antarctica LTER.
 
+
+You're a scientist in Palmer Station and and you wonder which penguin species on average will give the best hugs. You like hugs from big birds, so you decided to find out which species on average, are the chunkiest penguin.
+
+
+This is what the original database looks like on the station's computer. It's a large dataset -- you're working with the brightest scientists after all.
 ```{python}
+#| message: false
+#| warning: false
+
 import palmerpenguins as ppenguins
 
 penguins = ppenguins.load_penguins()
 penguins.head()
 ```
 
+
+Let's find how many species are around the station, and their average body masses (rounded). You want to sort the database from heaviest to lightest.
 ```{python}
-# Group by
+# Group by 'species', find the mean, and sort by chunkiest penguin
 penguins_species = penguins.groupby(by="species").mean(numeric_only = True).round().sort_values(by = "body_mass_g", ascending = False)
-penguins_species = penguins_species.drop(["bill_length_mm", "bill_depth_mm", "flipper_length_mm"], axis = 1)
-penguins_species
+```
+
+
+Finally, remove all the other columns that are not species or mass.
+```{python}
+# Remove excess columns
+penguins_species = penguins_species.drop(["bill_length_mm", "bill_depth_mm", "flipper_length_mm", "year"], axis = 1)
+```
+
+
+Here are the results. 
+The Gentoo penguins are probably the most satisfyingly huggable ones with an average body mass of 5.1 kg.
+```{python}
+#| label: fig-penguin-mass
+#| fig-cap: "Body mass of penguins by species."
+
+penguins_species.plot.bar(y="body_mass_g")
 ```
 
 
 
-#| label: fig-penguin-mass
-#| fig-cap: "Body mass of penguins by species."
+Description: Of the three penguin species observered, the Gentoos are by far the biggest birds and thus, the most satisfyingly huggable ones.
 
-#| Description: Of the three penguin species observered, the Gentoos are by far the biggest birds and thus, the most satisfyingly huggable ones.
-#| fig-cap: "Body mass of penguins by species."
-
-#| message: false
-#| warning: false
