@@ -7,14 +7,20 @@ date: 2026-09-24
 Data: [Palmer Penguins](https://allisonhorst.github.io/palmerpenguins/),
 Palmer Station Antarctica LTER.
 
+
 Let's try to find the most sataisfyingly, huggable penguin.
 ```{r}
+#| message: false
+#| warning: false
+
 library(tidyverse)
 library(palmerpenguins)
 
 penguins
 head(penguins)
 ```
+
+Let's group the penguins by species and calculate the average body mass of each species.This time, instead of a histogram like the Python post, but you want the numbers in a table instead.
 
 ```{r}
 penguins_species_weight = penguins |> 
@@ -24,11 +30,5 @@ penguins_species_weight
 ```
 
 
-label: fig-penguin-mass
-fig-cap: "Body mass of penguins by species."
+Description: Of the three penguin species observed, the Gentoos are by far the biggest birds and thus, the most satisfyingly huggable ones.
 
-Description: Of the three penguin species observered, the Gentoos are by far the biggest birds and thus, the most satisfyingly huggable ones.
-fig-cap: "Body mass of penguins by species."
-
-message: false
-warning: false
