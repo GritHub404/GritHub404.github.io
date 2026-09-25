@@ -112,10 +112,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }</script>
 <script src="https://cdn.jsdelivr.net/npm/requirejs@2.3.6/require.min.js" integrity="sha384-c9c+LnTbwQ3aujuU7ULEPVvgLs+Fn6fJUvIGTsuu1ZcCf11fiEubah0ttpca4ntM sha384-6V1/AdqZRWk1KAlWbKBlGhN7VG4iE/yAZcO6NZPMF8od0vukrvr0tg4qY6NSrItx" crossorigin="anonymous"></script>
 
-
-
 <script type="application/javascript">define('jquery', [],function() {return window.jQuery;})</script>
-
 
 
 <link rel="stylesheet" href="../../styles.css">
@@ -198,11 +195,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<div id="c068a210" class="cell" data-execution_count="1">
+<div id="422b981c" class="cell" data-execution_count="1">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sys</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(sys.executable)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>C:\Users\joypi\Desktop\MDS\Block 1\DSCI 521\Week 2\GritHub404.github.io\.venv\Scripts\pythonw.exe</code></pre>
+<pre><code>C:\Users\joypi\Desktop\MDS\Block 1\DSCI 521\Week 2\GritHub404.github.io\.venv\Scripts\python.exe</code></pre>
 </div>
 </div>
 <ul>
@@ -211,7 +208,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 <p>You’re a scientist in Palmer Station and and you wonder which penguin species on average will give the best hugs. You like hugs from big birds, so you decided to find out which species on average, are the chunkiest penguin.</p>
 <p>This is what the original database looks like on the station’s computer. It’s a large dataset – you’re working with the brightest scientists after all.</p>
-<div id="6dfee633" class="cell" data-message="false" data-execution_count="2">
+<div id="3eaa6456" class="cell" data-message="false" data-execution_count="2">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> palmerpenguins <span class="im">as</span> ppenguins</span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>penguins <span class="op">=</span> ppenguins.load_penguins()</span>
@@ -297,12 +294,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 <p>Let’s find how many species are around the station, and their average body masses (rounded). You want to sort the database from heaviest to lightest.</p>
-<div id="cf28d1e3" class="cell" data-execution_count="3">
+<div id="853cc8ad" class="cell" data-execution_count="3">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Group by 'species', find the mean, and sort by chunkiest penguin</span></span>
 <span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>penguins_species <span class="op">=</span> penguins.groupby(by<span class="op">=</span><span class="st">"species"</span>).mean(numeric_only <span class="op">=</span> <span class="va">True</span>).<span class="bu">round</span>().sort_values(by <span class="op">=</span> <span class="st">"body_mass_g"</span>, ascending <span class="op">=</span> <span class="va">False</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Finally, remove all the other columns that are not species or mass.</p>
-<div id="6cd8883f" class="cell" data-execution_count="4">
+<div id="518cb32d" class="cell" data-execution_count="4">
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Remove excess columns</span></span>
 <span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>penguins_species <span class="op">=</span> penguins_species.drop([<span class="st">"bill_length_mm"</span>, <span class="st">"bill_depth_mm"</span>, <span class="st">"flipper_length_mm"</span>, <span class="st">"year"</span>], axis <span class="op">=</span> <span class="dv">1</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
